@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ca-pmda"
+version = "1.0.0"
+requires-python = ">= 3.9"
+dependencies = [
+    "requests"
+]
+
+[tool.pyright]
+typeCheckingMode = "strict"
+
+[tool.setuptools]
+py-modules = [
+    "ca_pmda"
+]

@@ -1,0 +1,40 @@
+# Byte-compiled / optimized / DLL files
+# From https://www.toptal.com/developers/gitignore/api/python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+# From https://www.toptal.com/developers/gitignore/api/python
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Visual Studio Code
+# From Angular template
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/*
+
+# System files
+# From Angular template
+.DS_Store
+Thumbs.db
